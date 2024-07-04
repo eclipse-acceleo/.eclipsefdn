@@ -25,6 +25,7 @@ orgs.newOrg('eclipse-acceleo') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
+      has_discussions: true,
       has_wiki: false,
       web_commit_signoff_required: false,
       workflows+: {
