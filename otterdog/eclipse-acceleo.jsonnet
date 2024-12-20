@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-acceleo') {
+orgs.newOrg('modeling.acceleo', 'eclipse-acceleo') {
   settings+: {
     description: "",
     name: "Eclipse Acceleo",
